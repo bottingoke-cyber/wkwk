@@ -42,7 +42,7 @@ import matplotlib.pyplot as plt
 from matplotlib.patches import Rectangle
 
 # ============================================================ CONFIG
-BASE = os.getenv("BYBIT_BASE", "http://api.bybit.com").rstrip("/")
+BASE = os.getenv("BYBIT_BASE", "api.bybit.com").rstrip("/")
 CATEGORY = os.getenv("BYBIT_CATEGORY", "linear")
 PAIRS = {"XAUUSD": os.getenv("BYBIT_XAU", "XAUUSDT").strip().upper(),     # nama tampil -> simbol Bybit
          "BTCUSD": os.getenv("BYBIT_BTC", "BTCUSDT").strip().upper()}
