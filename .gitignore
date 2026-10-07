@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.pyc
+data/*
+bybit_charts/*
+bybit_sent.json
+bybit_book.json
+bybit_capital.json
+bybit_offsets.json
