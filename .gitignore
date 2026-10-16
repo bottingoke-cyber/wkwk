@@ -7,3 +7,17 @@ bybit_sent.json
 bybit_book.json
 bybit_capital.json
 bybit_offsets.json
+
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.log
+.DS_Store
+bybit_capital.json
+bybit_sent.json
+bybit_book.json
+bybit_offsets.json
+bybit_charts/
